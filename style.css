@@ -1,1 +1,208 @@
-css
+/* Définition de la police utilisée */
+
+@font-face {
+    font-family: "Roboto";
+    src: url("polices/Roboto-Black.ttf");
+    src: url("polices/Roboto-BlackItalic.ttf");
+    src: url("polices/Roboto-Bold.ttf");
+    src: url("polices/Roboto-BoldItalic.ttf");
+    src: url("polices/Roboto-Italic.ttf");
+    src: url("polices/Roboto-Light.ttf");
+    src: url("polices/Roboto-LightItalic.ttf");
+    src: url("polices/Roboto-Medium.ttf");
+    src: url("polices/Roboto-MediumItalic.ttf");
+    src: url("polices/Roboto-Regular.ttf");
+    src: url("polices/Roboto-Thin.ttf");
+}
+
+/* Largeur de la page */
+
+#bloc_page
+{
+    width: 77%;
+    margin: auto;
+    font-family: "Roboto", sans-serif, Arial;
+}
+
+/* Header et Navigation */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -4px;
+}
+
+nav a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav li
+{
+    padding: 20px;
+}
+
+/* Photo fond d'écran */
+
+#photo
+{
+    background: url("images/backgroung_image.jpg") no-repeat;
+    position: relative;
+    height: 450px;
+    width: auto;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo h1
+{
+    font-weight: bold;
+    color: white;
+}
+
+/* Milieu de la page */
+
+section
+{
+margin-top: 30px;
+text-align: center;
+}
+
+header h2
+{
+    text-align: center;
+    margin-left: 225px;
+    font-size: 1.4em;
+    color: rgb(87, 87, 87);
+}
+
+article
+{
+    font-weight: bold;
+}
+
+article h2
+{
+   font-size: 1.3em; 
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+
+.myarticle
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 45px;
+}
+
+.bloc1
+{
+    margin-right: 50px;
+}
+
+.bloc2
+{
+    margin-right: 50px;
+}
+
+.bloc1 p, .bloc2 p, .bloc3 p
+{
+    margin-top: 30px;
+}
+
+h4
+{
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 70px;
+    color: rgb(87, 87, 87);
+}
+
+section footer p
+{
+    margin-top: -8px;
+}
+
+/* Footer bas de page */
+
+.footer
+{
+    background-color: rgb(91, 53, 157);
+}
+
+.logos
+{
+    display: flex;
+    justify-content: center;
+    color:  rgb(189, 174, 216);
+    font-size: 30px;
+}
+
+.twitter, .facebook
+{
+    padding-right: 80px;
+}
+
+.footer h3
+{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 25px;
+}
+
+.enbas h3
+{
+    color:rgb(189, 170, 212);
+    font-size: 1em;
+}
+
+.enbas ul
+{
+    color: white;
+}
+
+.enbas a
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.coordonnes p
+{
+    color: white;
+    font-weight: bold;
+}
+
+.enbas
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -15px;
+}
+
+.enbas h3
+{
+    text-align: left;
+}
+
